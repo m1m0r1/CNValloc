@@ -291,7 +291,7 @@ def gen_hist(args):
 @argument('-r', '--result-file', required=True, help='Result file')
 @argument('-a', '--allele-file', help='Allele file')
 @argument('-d', '--mean-depth', type=float, help='mean depth of haploid')
-def evaluate_lda(args):
+def evaluate_alleles(args):
     """
     Input:
         json
