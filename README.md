@@ -6,8 +6,8 @@ CNValloc
 
 Requirements
 ----------------------
-Python >= 2.6
-Modules: numpy, scipy, argtools
+- Python 2.6 or 2.7
+- Modules: numpy, scipy, argtools
 
 
 Description
@@ -65,5 +65,7 @@ TODO
 Citation
 ----------------------
 T. Mimori et al, 2015 BMC Bioinformatics
-"Estimating copy numbers of alleles from population-scale high-throughput sequencing data"
+
+__"Estimating copy numbers of alleles from population-scale high-throughput sequencing data"__
+
 http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-16-S1-S4
