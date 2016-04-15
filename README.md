@@ -1,6 +1,15 @@
 CNValloc
 ======================
 
+![CNValloc](https://raw.githubusercontent.com/m1m0r1/CNValloc/master/figures/cnvalloc_logo.png)
+
+
+Requirements
+----------------------
+Python >= 2.6
+Modules: numpy, scipy, argtools
+
+
 Description
 ----------------------
 A tool for estimating sequences of CNV alleles from multiple individuals.
