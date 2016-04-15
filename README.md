@@ -62,10 +62,9 @@ TODO
 - Write tools for step 2-4 of the above workflow
 
 
-Citation
+References
 ----------------------
 T. Mimori et al, 2015 BMC Bioinformatics
-
 __"Estimating copy numbers of alleles from population-scale high-throughput sequencing data"__
 
 http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-16-S1-S4
