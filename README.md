@@ -28,7 +28,7 @@ The result of estimation is emitted as JSON format.
 Check performance for the number of haplotypes K = 1..10
 
 ```sh
-$ parallel -k 'python cnvalloc estimate_alleles -K {} examples/hist.txt | python cnvalloc evaluate_lda -r /dev/stdin -a examples/haps.txt' ::: {1..10}
+$ parallel -k 'python cnvalloc estimate_alleles -K {} examples/hist.txt | python cnvalloc evaluate_alleles -r /dev/stdin -a examples/haps.txt' ::: {1..10}
 ```
 
 * examples/haps.txt : True hpalotypes for evaluation
@@ -56,7 +56,7 @@ $ python cnvalloc bam2hist {BAM file n} -r chr1:10000000-100010000 > pileups.n.t
 4. Create an input file for the `cnvalloc estimate_alleles` by querying to the database
 
 
-TODO
+Future work
 ----------------------
 - Consider variant types other than mutations
 - Write tools for step 2-4 of the above workflow
