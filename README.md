@@ -44,14 +44,13 @@ $ parallel -k 'python cnvalloc estimate_alleles -K {} examples/hist.txt | python
 
 ### Workflow for BAM files
 
-1. Make pileup histograms from BAM files
+1. Make pileup histograms from BAM files:
 
-```sh
-$ python cnvalloc bam2hist {BAM file n} -r chr1:10000000-100010000 > pileups.n.txt
-```
-
+    ```sh
+    $ python cnvalloc bam2hist {BAM file n} -r chr1:10000000-100010000 > pileups.n.txt
+    ```
 2. Import the pileup files to a database such as sqlite3
-3. Select the variable sites to use with some criteria (e.g. minor_count > 15 for any of the samples)
+3. Select the variable sites to use with some criteria (e.g. minor_count >= 15 for any of the samples)
 4. Create an input file for the `cnvalloc estimate_alleles` by querying to the database
 
 
