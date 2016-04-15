@@ -30,12 +30,12 @@ Check performance for the number of haplotypes K = 1..10
 $ parallel -k 'python cnvalloc estimate_alleles -K {} examples/hist.txt | python cnvalloc evaluate_alleles -r /dev/stdin -a examples/haps.txt' ::: {1..10}
 ```
 
-* examples/haps.txt : True hpalotypes for evaluation
+* examples/haps.txt : True haplotypes for evaluation
     - column 1: Sample id
     - column 2: Allele id
     - column n (n>2): The base of the allele at the n-2 th variant site
 
-* examples/hist.txt : Histogram of data
+* examples/hist.txt : Observed bases of sequence data at variant sites
     - column 1: Sample id
     - column 2: One of the 'ATCG' bases
     - column n(n>2) : The number of observed bases at n-2 th variant site
