@@ -47,13 +47,14 @@ $ python cnvalloc bam2hist {BAM file n} -r chr1:10000000-100010000 > pileups.n.t
 4. Create an input file for the `cnvalloc estimate_haps` by querying to the database
 
 
+TODO
+----------------------
+- Consider variant types other than mutations
+- Write tools for step 2-4 of the above workflow
+
+
 Citation
 ----------------------
 T. Mimori et al, 2015 BMC Bioinformatics
 "Estimating copy numbers of alleles from population-scale high-throughput sequencing data"
 http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-16-S1-S4
-
-
-TODO
-----------------------
-- Consider variant types other than mutations
