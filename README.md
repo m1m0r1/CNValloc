@@ -1,8 +1,7 @@
 CNValloc
 ======================
 
-![CNValloc](https://raw.githubusercontent.com/m1m0r1/CNValloc/master/figures/cnvalloc_logo.png)
-
+<img alt="CNValloc" src="https://raw.githubusercontent.com/m1m0r1/CNValloc/master/figures/cnvalloc_logo.png" width="50%" />
 
 Requirements
 ----------------------
